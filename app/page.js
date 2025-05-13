@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 export default function Home() {
+  console.log(process.env.MONGO_URI);
+
   return (
     <>
       <Link href="/create" className="btn btn-primary fixed top-10 right-10">
